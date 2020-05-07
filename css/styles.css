@@ -1,0 +1,103 @@
+body {
+  text-align: center;
+  color: dimgrey;
+  margin: 0;
+  font-family: 'Merriweather', serif;
+}
+
+a {
+  color: #11999E;
+}
+
+h1 {
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625em;
+  margin: 50px auto 0 auto;
+  color: #66BFBF;
+  line-height: 2;
+}
+
+h2 {
+  font-size: 2rem;
+  font-family: 'Montserrat', cursive;
+  color: #66BFBF;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', cursive;
+}
+
+p {
+  padding-bottom: 20px;
+  font-family: 'Montserrat', cursive;
+}
+.my-goal {
+  font-family: 'Merriweather', serif;
+  margin-top: 0;
+}
+
+.top-container {
+  background-color: #e0ebe8;
+  margin: 0;
+  padding-top: 50px;
+  position: relative;
+}
+
+.skills {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/* Images Section */
+.top-cloud {
+  position: relative;
+  left: 250px;
+  padding-top: 10px;
+}
+
+.computer {
+  width: 25%;
+  margin-right: 30px;
+  float: left;
+}
+
+.chillies {
+  width: 25%;
+  margin-left: 30px;
+  float: right;
+}
+
+.profile-pic {
+  width: 30%;
+}
+/* Images Section */
+
+.my-goal {
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+
+.bottom-cloud {
+  position: absolute;
+}
+.profile {
+  width: 50%;
+  margin: 50px auto 50px auto;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.contact-me {
+  width: 50%;
+  margin: 100px auto 100px auto;
+}
+
+.profile-body {
+  text-align: center;
+}
