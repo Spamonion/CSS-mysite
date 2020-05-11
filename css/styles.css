@@ -7,6 +7,11 @@ body {
 
 a {
   color: #11999E;
+  margin: 30px;
+}
+
+a:hover {
+  color: #EAF6F6;
 }
 
 h1 {
@@ -29,16 +34,15 @@ h3 {
 }
 
 p {
-  padding-bottom: 20px;
   font-family: 'Montserrat', cursive;
   color: #40514E;
+  line-height: 2;
 }
 
 hr {
-  width: 8%;
-  border-top: 15px;
-  border-bottom: 0;
-  border-style: dotted;
+  width: 4%;
+  border: dotted #EAF6F6 10px;
+  border-bottom: none;
   margin: 0 auto;
   color: #EAF6F6;
 }
@@ -103,7 +107,7 @@ hr {
 
 .skill-row {
   width: 50%;
-  margin: 80px auto 80px auto;
+  margin: 80px auto 0 auto;
   text-align: left;
   line-height: 2;
 }
@@ -112,33 +116,35 @@ hr {
   width: 50%;
   margin: 80px auto 80px auto;
 }
+.contact-message {
+  width: 60%;
+  margin: auto;
+}
 
 .email {
   padding: 32px 0 32px 0;
 }
 
 .profile-body {
-  text-align: center;
+  width: 60%;
+  margin: auto;
 }
 
 .bottom-container {
   background-color: #66BFBF;
-  padding: 48px;
-  margin: 0;
+  padding: 32px;
 }
 
 .footer-link {
   font-size: 1.35rem;
-  margin: 30px;
   font-weight: bold;
   text-decoration: none;
 }
 
 .copyright {
   color: white;
-  position: relative;
-  bottom: -32px;
-  font-weight: bold;
+  font-size: 1rem;
+  padding-top: 30px;
 }
 
 .btn {
